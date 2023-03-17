@@ -1,7 +1,21 @@
 import React, { Component } from "react";
 import Button from "./Button";
 
-class GuessControl extends Component {
+function GuessControl(onGuess){
+  //Check: is onGuess a prop here correctly?
+  return (
+    <div>
+      <input
+        type="number"
+        value={state.currentGuess}
+        onChange={handleInputChange}
+      />
+      <Button onClick={onSubmitGuess}>Submit Guess</Button>
+    </div>
+  );
+}
+
+class GuessControlOld extends Component {
   constructor(props) {
     super(props);
 
