@@ -1,0 +1,19 @@
+.wayHigh {
+    color: red;
+    font-weight: bold;
+}
+.wayLow {
+    color: blue;
+    font-weight: bold;
+}
+.littleHigh {
+    color: orange;
+    font-weight: bold;
+}
+.littleLow {
+    color: cornflowerblue;
+    font-weight: bold;
+}
+p {
+    font-size: 2rem;
+}
